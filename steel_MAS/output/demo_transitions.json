@@ -1,0 +1,898 @@
+{
+  "transitions": [
+    {
+      "step": 0,
+      "state": {
+        "time": 0,
+        "gas_holder": {
+          "soc_bfg": 0.5,
+          "soc_bofg": 0.5,
+          "soc_cog": 0.5,
+          "p_bfg": 12.0,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 0.0,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 0.0,
+          "coke_cog_supply": 0.0
+        },
+        "demand": {
+          "power_plant_demand": 50000.0,
+          "heating_demand": 20000.0,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 4110.084947494923,
+          "bf_pci": 155.6180943877905,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 1,
+        "gas_holder": {
+          "soc_bfg": 0.5017160509684969,
+          "soc_bofg": 0.47948517252018874,
+          "soc_cog": 0.5012074088429008,
+          "p_bfg": 12.006864203873988,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 118642.03873987815,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8474431338562725,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6535355540447241,
+        "total": 0.8696843643514538,
+        "breakdown": {
+          "bf_bfg_supply": 118642.03873987815,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5017160509684969,
+          "soc_bofg": 0.47948517252018874,
+          "soc_cog": 0.5012074088429008,
+          "utilization": 0.4574748878313068,
+          "total_supply": 148642.03873987816,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 1,
+      "state": {
+        "time": 1,
+        "gas_holder": {
+          "soc_bfg": 0.5017160509684969,
+          "soc_bofg": 0.47948517252018874,
+          "soc_cog": 0.5012074088429008,
+          "p_bfg": 12.006864203873988,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 118642.03873987815,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 3867.309018759144,
+          "bf_pci": 136.8303203712188,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 2,
+        "gas_holder": {
+          "soc_bfg": 0.5032864363797525,
+          "soc_bofg": 0.4906915739652789,
+          "soc_cog": 0.4908534879397188,
+          "p_bfg": 12.01314574551901,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 112815.41645021946,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8058244032158532,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6801986757223623,
+        "total": 0.8583694964308137,
+        "breakdown": {
+          "bf_bfg_supply": 112815.41645021946,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5032864363797525,
+          "soc_bofg": 0.4906915739652789,
+          "soc_cog": 0.4908534879397188,
+          "utilization": 0.47613907300565356,
+          "total_supply": 142815.41645021946,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 2,
+      "state": {
+        "time": 2,
+        "gas_holder": {
+          "soc_bfg": 0.5032864363797525,
+          "soc_bofg": 0.4906915739652789,
+          "soc_cog": 0.4908534879397188,
+          "p_bfg": 12.01314574551901,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 112815.41645021946,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 4105.344015624112,
+          "bf_pci": 132.9226099475322,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 3,
+        "gas_holder": {
+          "soc_bfg": 0.5049996427891269,
+          "soc_bofg": 0.49253846871910284,
+          "soc_cog": 0.4894248507104271,
+          "p_bfg": 12.019998571156508,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 118528.2563749787,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8466304026784193,
+        "stability_score": 1.0,
+        "efficiency_score": 0.654036205050125,
+        "total": 0.8694594020813928,
+        "breakdown": {
+          "bf_bfg_supply": 118528.2563749787,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5049996427891269,
+          "soc_bofg": 0.49253846871910284,
+          "soc_cog": 0.4894248507104271,
+          "utilization": 0.4578253435350875,
+          "total_supply": 148528.2563749787,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 3,
+      "state": {
+        "time": 3,
+        "gas_holder": {
+          "soc_bfg": 0.5049996427891269,
+          "soc_bofg": 0.49253846871910284,
+          "soc_cog": 0.4894248507104271,
+          "p_bfg": 12.019998571156508,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 118528.2563749787,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 3875.455818506755,
+          "bf_pci": 170.3683704047218,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 4,
+        "gas_holder": {
+          "soc_bfg": 0.506574916280231,
+          "soc_bofg": 0.48902079340634663,
+          "soc_cog": 0.49813968462830166,
+          "p_bfg": 12.026299665120924,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 113010.93964416212,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8072209974583009,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6792687145744752,
+        "total": 0.8587421418982154,
+        "breakdown": {
+          "bf_bfg_supply": 113010.93964416212,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.506574916280231,
+          "soc_bofg": 0.48902079340634663,
+          "soc_cog": 0.49813968462830166,
+          "utilization": 0.4754881002021326,
+          "total_supply": 143010.93964416214,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 4,
+      "state": {
+        "time": 4,
+        "gas_holder": {
+          "soc_bfg": 0.506574916280231,
+          "soc_bofg": 0.48902079340634663,
+          "soc_cog": 0.49813968462830166,
+          "p_bfg": 12.026299665120924,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 113010.93964416212,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 3984.698587266503,
+          "bf_pci": 141.95685447868647,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 5,
+        "gas_holder": {
+          "soc_bfg": 0.5082157354325909,
+          "soc_bofg": 0.47408657786767866,
+          "soc_cog": 0.480175975635518,
+          "p_bfg": 12.032862941730365,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 115632.76609439608,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8259483292456863,
+        "stability_score": 1.0,
+        "efficiency_score": 0.667039841015065,
+        "total": 0.8637872999012876,
+        "breakdown": {
+          "bf_bfg_supply": 115632.76609439608,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5082157354325909,
+          "soc_bofg": 0.47408657786767866,
+          "soc_cog": 0.480175975635518,
+          "utilization": 0.46692788871054547,
+          "total_supply": 145632.76609439607,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 5,
+      "state": {
+        "time": 5,
+        "gas_holder": {
+          "soc_bfg": 0.5082157354325909,
+          "soc_bofg": 0.47408657786767866,
+          "soc_cog": 0.480175975635518,
+          "p_bfg": 12.032862941730365,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 115632.76609439608,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 4139.845940332648,
+          "bf_pci": 162.10425586933252,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 6,
+        "gas_holder": {
+          "soc_bfg": 0.5099496429967905,
+          "soc_bofg": 0.46562095704246886,
+          "soc_cog": 0.4786144079445025,
+          "p_bfg": 12.039798571987163,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 119356.30256798354,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8525450183427395,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6504101632938426,
+        "total": 0.8711000399958644,
+        "breakdown": {
+          "bf_bfg_supply": 119356.30256798354,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5099496429967905,
+          "soc_bofg": 0.46562095704246886,
+          "soc_cog": 0.4786144079445025,
+          "utilization": 0.4552871143056898,
+          "total_supply": 149356.30256798354,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 6,
+      "state": {
+        "time": 6,
+        "gas_holder": {
+          "soc_bfg": 0.5099496429967905,
+          "soc_bofg": 0.46562095704246886,
+          "soc_cog": 0.4786144079445025,
+          "p_bfg": 12.039798571987163,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 119356.30256798354,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 4050.130106804686,
+          "bf_pci": 134.8686419414161,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 7,
+        "gas_holder": {
+          "soc_bfg": 0.5116297210608732,
+          "soc_bofg": 0.4556842076701006,
+          "soc_cog": 0.4604778061098229,
+          "p_bfg": 12.046518884243493,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 117203.12256331247,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8371651611665176,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6599238891852706,
+        "total": 0.8668508423036612,
+        "breakdown": {
+          "bf_bfg_supply": 117203.12256331247,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5116297210608732,
+          "soc_bofg": 0.4556842076701006,
+          "soc_cog": 0.4604778061098229,
+          "utilization": 0.46194672242968937,
+          "total_supply": 147203.12256331247,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 7,
+      "state": {
+        "time": 7,
+        "gas_holder": {
+          "soc_bfg": 0.5116297210608732,
+          "soc_bofg": 0.4556842076701006,
+          "soc_cog": 0.4604778061098229,
+          "p_bfg": 12.046518884243493,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 117203.12256331247,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 4094.4172546402715,
+          "bf_pci": 140.55064027043113,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 8,
+        "gas_holder": {
+          "soc_bfg": 0.5133363714136574,
+          "soc_bofg": 0.45921202202692624,
+          "soc_cog": 0.4554224419748848,
+          "p_bfg": 12.05334548565463,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 118266.01411136652,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.844757243652618,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6551930172563712,
+        "total": 0.8689415009123215,
+        "breakdown": {
+          "bf_bfg_supply": 118266.01411136652,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5133363714136574,
+          "soc_bofg": 0.45921202202692624,
+          "soc_cog": 0.4554224419748848,
+          "utilization": 0.45863511207945984,
+          "total_supply": 148266.01411136653,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 8,
+      "state": {
+        "time": 8,
+        "gas_holder": {
+          "soc_bfg": 0.5133363714136574,
+          "soc_bofg": 0.45921202202692624,
+          "soc_cog": 0.4554224419748848,
+          "p_bfg": 12.05334548565463,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 118266.01411136652,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 3941.3532207660746,
+          "bf_pci": 148.89071211303425,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 9,
+        "gas_holder": {
+          "soc_bfg": 0.514951183346117,
+          "soc_bofg": 0.45200234729971633,
+          "soc_cog": 0.4610930314617394,
+          "p_bfg": 12.059804733384468,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 114592.4772983858,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8185176949884699,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6718389431956276,
+        "total": 0.8617748666345136,
+        "breakdown": {
+          "bf_bfg_supply": 114592.4772983858,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.514951183346117,
+          "soc_bofg": 0.45200234729971633,
+          "soc_cog": 0.4610930314617394,
+          "utilization": 0.47028726023693934,
+          "total_supply": 144592.4772983858,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": false,
+      "info": {}
+    },
+    {
+      "step": 9,
+      "state": {
+        "time": 9,
+        "gas_holder": {
+          "soc_bfg": 0.514951183346117,
+          "soc_bofg": 0.45200234729971633,
+          "soc_cog": 0.4610930314617394,
+          "p_bfg": 12.059804733384468,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 114592.4772983858,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "action": {
+        "gas_allocation": {
+          "bfg_to_power_plant": 30000.0,
+          "bfg_to_heating": 20000.0,
+          "bofg_to_power_plant": 10000.0,
+          "cog_to_bf": 5000.0,
+          "cog_to_heating": 3000.0
+        },
+        "production_control": {
+          "bf_wind_volume": 4017.2610227405653,
+          "bf_pci": 140.53254430081898,
+          "bf_o2_enrichment": 3.5,
+          "bof_oxygen": 20000.0,
+          "bof_scrap_steel": 20.0,
+          "coke_pushing_rate": 1.2,
+          "coke_heating_gas": 15000.0
+        },
+        "metadata": {}
+      },
+      "next_state": {
+        "time": 10,
+        "gas_holder": {
+          "soc_bfg": 0.5166115399597614,
+          "soc_bofg": 0.4652437170593327,
+          "soc_cog": 0.45262345270959786,
+          "p_bfg": 12.066446159839046,
+          "p_bofg": 12.0,
+          "p_cog": 12.0
+        },
+        "production": {
+          "bf_bfg_supply": 116414.26454577356,
+          "bf_t_hot_metal": 1500.0,
+          "bf_si_content": 0.45,
+          "bof_bofg_supply": 10000,
+          "coke_cog_supply": 20000
+        },
+        "demand": {
+          "power_plant_demand": 50000,
+          "heating_demand": 20000,
+          "priority_level": 0.5
+        },
+        "metadata": {}
+      },
+      "reward": {
+        "production_score": 0.8315304610412397,
+        "stability_score": 1.0,
+        "efficiency_score": 0.6634794597614077,
+        "total": 0.8653080763687775,
+        "breakdown": {
+          "bf_bfg_supply": 116414.26454577356,
+          "soc_penalty_total": 0,
+          "soc_bfg": 0.5166115399597614,
+          "soc_bofg": 0.4652437170593327,
+          "soc_cog": 0.45262345270959786,
+          "utilization": 0.4644356218329853,
+          "total_supply": 146414.26454577356,
+          "total_consumption": 68000.0
+        }
+      },
+      "done": true,
+      "info": {}
+    }
+  ],
+  "metrics": {
+    "mean_production": 0.8317582845646119,
+    "mean_stability": 1.0,
+    "mean_efficiency": 0.6634924463099271,
+    "mean_total": 0.8654018030878301,
+    "std_total": 0.004375820118782924,
+    "cumulative_reward": 8.654018030878301,
+    "min_total": 0.8583694964308137,
+    "max_total": 0.8711000399958644
+  },
+  "metadata": {
+    "total_transitions": 10,
+    "episodes": 1
+  }
+}
